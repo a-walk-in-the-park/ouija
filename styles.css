@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     font-size: 2px;
@@ -9,4 +10,17 @@ h2{
 
 h3{
     display: inline;
+=======
+
+*{
+    font-size: 2px;
+}
+
+h2{
+    display: inline;
+}
+
+h3{
+    display: inline;
+>>>>>>> 3670a1cf58be67a18fbdbb26b168de474e2e9d3a
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,3 +35,41 @@
     </script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+    <model-viewer src="modelle/steinescan1.glb"
+        ios-src="modelle/ouija.usdz"
+        alt="steinscan"
+        ar
+        auto-rotate
+        camera-controls
+        ar-modes="webxr scene-viewer quick-look"
+        environment-image="neutral">   
+    </model-viewer>
+
+    <script>
+        async function checkARCoreCompatibility() {
+        const modelViewer = document.getElementById('model-viewer');
+        const isARCoreSupported = await navigator.xr.isSessionSupported('immersive-ar');
+        if (!isARCoreSupported) {
+            modelViewer.removeAttribute('ar');
+            modelViewer.removeAttribute('ar-modes');
+            alert('Your device is not compatible with AR features. You can still view the 3D model.');
+        }
+        }
+
+        document.addEventListener('DOMContentLoaded', checkARCoreCompatibility);
+    </script>
+</body>
+</html>
+>>>>>>> 3670a1cf58be67a18fbdbb26b168de474e2e9d3a
