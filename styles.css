@@ -16,7 +16,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 8px 15px 0px 15px;
 }
 
 h1{
@@ -28,7 +28,6 @@ model-viewer{
     top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.227);
     width: 75%;
     height: 75%;
 }
