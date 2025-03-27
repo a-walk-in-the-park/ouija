@@ -17,6 +17,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 8px 15px 0px 15px;
+    filter: blur(2px);
 }
 
 h1{
