@@ -34,10 +34,10 @@ h2{
 
 model-viewer{
     position: fixed;
-    bottom: 0%;
+    bottom: 5%;
     left: 0%;
     width: 100%;
-    height: 100%;
+    height: 96%;
     mix-blend-mode: difference;
 }
 
@@ -75,8 +75,23 @@ model-viewer .ar-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 1000;
+    z-index: 9999;
     width: 80px;
     height: 80px;
-    background-color: red;
   }
+
+  .black{
+    height: 4%;
+    width: 100vw;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    background-color: black;
+    display: none;
+}
+
+@media (max-width:1025px){
+    .black{
+        display: block;
+    }
+}
