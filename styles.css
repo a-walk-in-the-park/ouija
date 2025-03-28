@@ -3,7 +3,7 @@
     padding: 0%;
     font-size: 50px;
     line-height: 44px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: 'Helvetica';
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-weight: 400;
@@ -18,9 +18,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 8px 15px 0px 15px;
-    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
     z-index: 99;
-    filter: blur(2px);
+    filter: blur(1px);
 }
 
 h1{
@@ -76,7 +76,7 @@ model-viewer .ar-button {
     bottom: 20px;
     right: 20px;
     z-index: 1000;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: red;
   }
