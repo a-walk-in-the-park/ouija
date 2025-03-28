@@ -57,9 +57,9 @@ model-viewer{
 #pferd{
     z-index: -99;
     width: auto;
-    height: 250vh;
+    height: 250dvh;
     position: fixed;
-    bottom: -10vh;
+    bottom: -10dvh;
     left: 50%;
     transform: translate(-50%, 0%);
     opacity: 0.8;
