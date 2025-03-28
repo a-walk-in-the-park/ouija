@@ -1,1 +1,2 @@
-stonescan
+this is my digital ouijAR board...
+do you feel my digital presence?
